@@ -19,18 +19,20 @@ dependencies and to run the demo.
 3.  Clone this repo:
 
         https://github.com/googlecodelabs/polymer-first-elements.git
-        
+
 4.  Change directory to your local repo and install dependencies with `bower`:
 
         cd polymer-first-elements
         bower install
-        
+
 5.  To preview your element, run `polyserve` from the repo directory:
 
         polyserve
-        
-    Open `localhost:8080/components/icon-toggle/demo/` in your browser. (Note that the path uses `icon-toggle`—the 
-    component name listed in this element's `bower.json` file—rather than the actual directory name.) 
-    
-If you're wondering what `polyserve` does, see [Testing elements with local bower dependencies](https://www.polymer-project.org/1.0/docs/start/reusableelements.html#local-dependencies) 
-in the Polymer docs. 
+
+    Open `localhost:8080/components/icon-toggle/demo/` in your browser. (Note that the path uses `icon-toggle`—the
+    component name listed in this element's `bower.json` file—rather than the actual directory name.)
+
+If you're wondering what `polyserve` does, see [Testing elements with local bower dependencies](https://www.polymer-project.org/1.0/docs/start/reusableelements.html#local-dependencies)
+in the Polymer docs.
+# polymerTraining
+This repository will be used to build a sample application using Polymer Library as a part of 2018 - Goal 1
