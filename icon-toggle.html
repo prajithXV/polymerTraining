@@ -2,8 +2,6 @@
 <link rel="import" href="../iron-icon/iron-icon.html">
 
 <dom-module id="icon-toggle">
-
-
   <template>
 
     <style>
@@ -19,13 +17,13 @@
         fill: currentcolor;
       }
     </style>
-
     <!-- local DOM goes here -->
     <iron-icon icon="[[toggleIcon]]"></iron-icon>
   </template>
 
   <script>
   Polymer({
+    /* this is the element's prototype */
     is: 'icon-toggle',
     properties: {
       toggleIcon: String,
@@ -35,7 +33,13 @@
         notify: true,
         reflectToAttribute: true
       }
-    }
+    },
+    listeners: {
+      'tap': 'toggle'
+    },
+    toggle: function() {
+      this.pressed = !this.pressed;
+    },
   });
   </script>
 
